@@ -1,4 +1,4 @@
-# qopt: a peephole optimizer for quantum circuits
+# QOPT: a peephole optimizer for quantum circuits
 
 `qopt` is a small quantum-circuit compiler pass pipeline written from scratch in Python. It takes a circuit, rewrites it into an equivalent circuit with fewer gates, and **proves every result is correct** by comparing unitaries. A reproducible benchmark measures it against Qiskit's transpiler.
 
